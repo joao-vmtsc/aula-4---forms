@@ -10,28 +10,46 @@
       <fieldset>
         <h1>Informações Pessoais</h1>
 
-        <label for="nome"><strong>Nome Completo:</strong></label>
+        <label for="nome"><strong>Nome Completo:</strong></label> <br>
         <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+
         <br>
-        <label for="nascimento"><strong>Data de nascimento:</strong></label>
+        <br>
+
+        <label for="nascimento"><strong>Data de nascimento:</strong></label><br>
         <input type="date" id="nascimento" name="nascimento" required>
+
         <br>
-        <label for="cpf"><strong>CPF</strong></label>
+        <br>
+
+        <label for="cpf"><strong>CPF</strong></label><br>
         <input type="number" id="cpf" name="cpf" placeholder="Apenas números (11 dígitos)" required>
+
         <br>
-        <label for="genero"><strong>Gênero</strong></label>
+        <br>
+
+        <label for="genero"><strong>Gênero</strong></label><br>
         <select id="genero" name="genero" required>
             <option value="">Selecione...</option>
             <option value="M">Masculino</option>
             <option value="F">Feminino</option>
         </select>
+
         <br>
-        <label for="email">E-mail:</label>
+        <br>
+
+        <label for="email">E-mail:</label><br>
         <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+
         <br>
-        <label for="cidade">Cidade:</label>
+        <br>
+
+        <label for="cidade">Cidade:</label><br>
         <input type="cidade" id="cidade" name="cidade" required>
+
         <br>
+        <br>
+        
         <label for="estado">UF (Estado):</label>
         <select id="estado" name="estado" required>
             <option value="">Selecione...</option>
@@ -42,6 +60,9 @@
             <option value="RS">Rio Grande do Sul</option>
             <option value="MG">Minas Gerais</option>
         </select>      
+        
+        <br>
+        <br>
 
         <button type="submit">Cadastrar</button>
     </form>
