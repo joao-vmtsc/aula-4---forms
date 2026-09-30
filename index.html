@@ -6,32 +6,32 @@
     <title>Document</title>
 </head>
 <body style="text-align: center;">
-    <form action="#" method="post">
+    <form action="agradecimento.html" method="post">
       <fieldset>
         <h1>Informações Pessoais</h1>
 
-        <label for="nome">Nome Completo:</label>
+        <label for="nome"><strong>Nome Completo:</strong></label>
         <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
-
-        <label for="nascimento">Data de nascimento:</label>
+        <br>
+        <label for="nascimento"><strong>Data de nascimento:</strong></label>
         <input type="date" id="nascimento" name="nascimento" required>
-
-        <label for="cpf">CPF</label>
+        <br>
+        <label for="cpf"><strong>CPF</strong></label>
         <input type="number" id="cpf" name="cpf" placeholder="Apenas números (11 dígitos)" required>
-
-        <label for="genero">Gênero</label>
+        <br>
+        <label for="genero"><strong>Gênero</strong></label>
         <select id="genero" name="genero" required>
             <option value="">Selecione...</option>
             <option value="M">Masculino</option>
             <option value="F">Feminino</option>
         </select>
-
+        <br>
         <label for="email">E-mail:</label>
         <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
-
+        <br>
         <label for="cidade">Cidade:</label>
         <input type="cidade" id="cidade" name="cidade" required>
-
+        <br>
         <label for="estado">UF (Estado):</label>
         <select id="estado" name="estado" required>
             <option value="">Selecione...</option>
@@ -42,6 +42,8 @@
             <option value="RS">Rio Grande do Sul</option>
             <option value="MG">Minas Gerais</option>
         </select>      
+
+        <button type="submit">Cadastrar</button>
     </form>
 </body>
 </html>
